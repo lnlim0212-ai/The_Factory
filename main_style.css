@@ -414,11 +414,11 @@ footer a:hover{
 
 }
 
-        .sns{
+.sns{
 
-            display:flex;
+display:flex;
 
-            gap:20px;
-
-        }
+gap:20px;
+      
+}
 
