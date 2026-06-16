@@ -82,56 +82,19 @@
 
         /* 메인 배너 */
 
-        .banner{
+            .banner{
+                height:250px;
+                background:#d8d8d8;
+                padding:60px 80px;
+                display:flex;
+                flex-direction:column;
+                justify-content:center;
+                margin-top:50px;
+                margin-bottom: 50px;
+                border-radius: 10px 10px;
+            }
 
-            height:500px;
-
-            background-image:url("https://placehold.co/1200x500");
-            background-size:cover;
-            background-position:center;
-
-            position:relative;
-
-        }
-
-        .banner-text{
-
-            position:absolute;
-
-            left:150px;
-            top:180px;
-
-        }
-
-        .banner-text h2{
-
-            font-size:60px;
-
-            margin-bottom:30px;
-
-        }
-
-        .banner-text p{
-
-            font-size:24px;
-
-            margin-bottom:40px;
-
-        }
-
-        .banner button{
-
-            width:150px;
-            height:50px;
-
-            margin-right:10px;
-
-        }
-
-        .banner button:hover{
-
-            color: lightgray;
-
-            background: gray;
-
-        }
+            .banner h2{
+                font-size:48px;
+                margin-top:10px;
+            }
